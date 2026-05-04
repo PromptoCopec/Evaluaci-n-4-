@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(59 59 59);
+  color: white;
+  margin: 0;
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #15cce4;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+.busqueda {
+  margin-bottom: 25px;
+}
+
+.busqueda label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.busqueda input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 12px 16px;
+  border: none;
+  background-color: #15cce4;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #67e8f9;
+  transform: translateY(-2px);
+}
+
+.resultado {
+  background-color: rgba(165, 165, 165, 0.08);
+  border-radius: 12px;
+  padding: 25px;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.resultado h2 {
+  color: #15cce4;
+  margin-bottom: 15px;
+}
+
+.resultado h3 {
+  margin-top: 20px;
+  color: #15cce4;
+}
+
+.resultado p {
+  margin-bottom: 8px;
+}
+
+.resultado ul,
+.resultado ol {
+  padding-left: 20px;
+}
+
+.resultado li {
+  margin-bottom: 8px;
+}
+
+.etiqueta {
+  color: #15cce4;
+  font-weight: bold;
+}

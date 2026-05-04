@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Usuarios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Gestor de<br><span>Usuarios</span></h1>
+  </header>
+
+  <main>
+
+    <section class="busqueda">
+      <label for="campoBusqueda">Nombre a buscar:</label>
+      <input
+        type="text"
+        id="campoBusqueda"
+        placeholder="Ej: Leanne, Bret, Ervin..."
+      />
+    </section>
+
+    <section class="botones">
+      <button onclick="gestor.listarNombres()">
+         Listar nombres
+      </button>
+      <button onclick="gestor.buscarInfoBasica()">
+         Info básica
+      </button>
+      <button onclick="gestor.buscarDireccion()">
+         Dirección
+      </button>
+      <button onclick="gestor.buscarInfoAvanzada()">
+         Info avanzada
+      </button>
+      <button onclick="gestor.listarEmpresas()">
+         Empresas
+      </button>
+      <button onclick="gestor.listarOrdenados()">
+         Ordenar A→Z
+      </button>
+    </section>
+
+    <section id="resultado" class="resultado">
+      <p>Cargando datos...</p>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
